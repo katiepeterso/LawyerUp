@@ -16,7 +16,7 @@
 -(int)payableAmountForClient:(Client *)client forLawyer:(Lawyer*)lawyer;
 @end
 
-@interface Associate : NSObject
+@interface Associate : NSObject <Delegate>
 
 
 @end

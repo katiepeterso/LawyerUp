@@ -13,5 +13,6 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *legalProblem;
 @property (nonatomic) NSInteger specialty;
+@property (nonatomic) NSInteger *fee;
 
 @end

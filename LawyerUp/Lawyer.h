@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Associate.h"
-
+#import "Practice.h"
 
 @interface Lawyer : NSObject
 
@@ -16,5 +16,6 @@
 @property (nonatomic) NSInteger specialty;
 @property (nonatomic) NSNumber *rate;
 @property (nonatomic) id <Delegate> delegate;
+@property (nonatomic) NSMutableSet *clientList;
 
 @end
