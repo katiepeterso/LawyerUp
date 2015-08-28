@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AAD5D4781B8FCF63000D59AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D4771B8FCF63000D59AB /* main.m */; };
+		AAD5D4801B8FCFCE000D59AB /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D47F1B8FCFCE000D59AB /* Lawyer.m */; };
+		AAD5D4831B8FD065000D59AB /* Practice.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D4821B8FD065000D59AB /* Practice.m */; };
+		AAD5D4861B8FD79B000D59AB /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D4851B8FD79B000D59AB /* Client.m */; };
+		AAD5D4891B8FD837000D59AB /* Associate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5D4881B8FD837000D59AB /* Associate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		AAD5D4741B8FCF63000D59AB /* LawyerUp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LawyerUp; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD5D4771B8FCF63000D59AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD5D47E1B8FCFCE000D59AB /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
+		AAD5D47F1B8FCFCE000D59AB /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
+		AAD5D4811B8FD065000D59AB /* Practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
+		AAD5D4821B8FD065000D59AB /* Practice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Practice.m; sourceTree = "<group>"; };
+		AAD5D4841B8FD79B000D59AB /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		AAD5D4851B8FD79B000D59AB /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		AAD5D4871B8FD837000D59AB /* Associate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Associate.h; sourceTree = "<group>"; };
+		AAD5D4881B8FD837000D59AB /* Associate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Associate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				AAD5D4771B8FCF63000D59AB /* main.m */,
+				AAD5D47E1B8FCFCE000D59AB /* Lawyer.h */,
+				AAD5D47F1B8FCFCE000D59AB /* Lawyer.m */,
+				AAD5D4811B8FD065000D59AB /* Practice.h */,
+				AAD5D4821B8FD065000D59AB /* Practice.m */,
+				AAD5D4841B8FD79B000D59AB /* Client.h */,
+				AAD5D4851B8FD79B000D59AB /* Client.m */,
+				AAD5D4871B8FD837000D59AB /* Associate.h */,
+				AAD5D4881B8FD837000D59AB /* Associate.m */,
 			);
 			path = LawyerUp;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD5D4831B8FD065000D59AB /* Practice.m in Sources */,
 				AAD5D4781B8FCF63000D59AB /* main.m in Sources */,
+				AAD5D4861B8FD79B000D59AB /* Client.m in Sources */,
+				AAD5D4891B8FD837000D59AB /* Associate.m in Sources */,
+				AAD5D4801B8FCFCE000D59AB /* Lawyer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

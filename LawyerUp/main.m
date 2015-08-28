@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Lawyer.h"
+#import "Practice.h"
+#import "Client.h"
+#import "Associate.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Practice *newPractice = [Practice new];
+        
+        Lawyer *Lawyer1 = [Lawyer new];
+        Lawyer *Lawyer2 = [Lawyer new];
+        Lawyer *Lawyer3 = [Lawyer new];
     }
     return 0;
 }
